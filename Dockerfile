@@ -1,4 +1,4 @@
-FROM homeassistant/home-assistant:latest
+FROM homeassistant/home-assistant:0.84.6
 
 # Install tshark & iw
 RUN apt update -qq
